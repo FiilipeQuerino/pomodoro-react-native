@@ -14,7 +14,7 @@ enum TimerStepsEnum {
   Finished = 'FINISHED',
 }
 
-const TIMER_SECONDS_DEFAULT = 1500;
+const TIMER_SECONDS_DEFAULT = 5;
 
 type Props = {
   enabled?: boolean;

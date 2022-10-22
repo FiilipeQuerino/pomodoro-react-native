@@ -29,23 +29,6 @@ export function RegistrationTask() {
           <NoTasksCard />
         ) : (
           <>
-            {/* <View style={styles.timerContainer}>
-              <Timer
-                enabled={HomeScreenActions.isTimerEnabled(state)}
-                handleStart={() => dispatch(HomeScreenActions.taskStart())}
-                handleCheck={() => dispatch(HomeScreenActions.taskFinished())}
-                handleStop={() => dispatch(HomeScreenActions.taskStop())}
-              />
-            </View>
-            <TasksList
-              selectedIndex={state.selectedTaskIndex}
-              data={state.tasks}
-              onPress={(selectedTaskIndex: number) =>
-                dispatch(
-                  HomeScreenActions.selectTaskIndex({ selectedTaskIndex })
-                )
-              }
-            /> */}
           </>
         )}
         <FabButton

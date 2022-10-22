@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import { HomeScreen } from "../screens/HomeScreen";
 import { RegistrationTask } from "../screens/RegistrationTask";
+// import { User } from "../screens/User";
 
 import { Feather } from "@expo/vector-icons";
 
@@ -31,6 +32,15 @@ export function AppRoutes() {
                         }
                     }}
                 />
+                {/* <Screen
+                    name="Cadastro de Task"
+                    // component={User}
+                    options={{
+                        tabBarIcon: () => {
+                            return <Feather name="book-open" size={25} color="#7ab800" />
+                        }
+                    }}
+                /> */}
             </Navigator>
         </NavigationContainer>
     );
